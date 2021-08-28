@@ -1,5 +1,11 @@
+*{
+  margin: 0px ;
+  padding: 0px ;
+}
 .App {
   text-align: center;
+  /* background-color: #1a1a1c; */
+  color : white;
 }
 
 .App-logo {
@@ -35,4 +41,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+table, th, td {
+  table-layout: fixed;
+   width: 100%;
+  border:1px solid white;
+}
+
+/* @media only screen and (width: 600px) {
+  
+table, th, td {
+  table-layout: fixed;
+   width: 300px;
+  border:1px solid white;
+}
+
+} */
+
+form input{
+  padding-left: 16px;
+ width: 280px;
+  height: 40px;
+  border-radius: 4px;
+  margin-top: 10px;
+ 
+}
+.res {
+  overflow: auto;
 }
